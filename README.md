@@ -5,6 +5,6 @@
 
 Disciplinas:
 
-[Linguagem de Programaçã 1](https://github.com/haccosta/especializacao-utfpr-java/tree/main/linguagem-programacao-java-I)
+[Linguagem de Programação 1](https://github.com/haccosta/especializacao-utfpr-java/tree/main/linguagem-programacao-java-I)
 
 
