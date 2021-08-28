@@ -1,5 +1,3 @@
-package exercicio_1;
-
 public class Veiculo {
     private String placa;
     private String marca;

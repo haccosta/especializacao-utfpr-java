@@ -1,8 +1,7 @@
-package exercicio_1;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+
 public class Teste {
 
     private static final int LIMITE_CRIACAO_VEICULO = 5;

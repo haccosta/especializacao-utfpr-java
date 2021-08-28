@@ -1,4 +1,4 @@
-public class Veiculo {
+public abstract class Veiculo {
     private String placa;
     private String marca;
     private String modelo;
@@ -14,20 +14,22 @@ public class Veiculo {
 
     }
 
-    public void setPlaca(String placa) {
+    public final void setPlaca(String placa) {
         this.placa = placa;
     }
-    public void setMarca(String marca){
+    public final void setMarca(String marca){
         this.marca = marca;
     }
 
-    public void setModelo(String modelo){
+    public final void setModelo(String modelo){
         this.modelo = modelo;
     }
 
-    public void setVelocMax(float velocMax){
+    public final void setVelocMax(float velocMax){
         this.velocMax = velocMax;
     }
+
+    abstract float calcVec(float velocMax);
 
     public String getPlaca(){
         return placa;
@@ -45,8 +47,4 @@ public class Veiculo {
         return motor;
     }
 
-    public String toString(){
-        return "Modelo: " + this.modelo + " Marca: " + this.marca + " Placa: " + this.placa + " Velocidade Max:  " + this.velocMax +
-               " Motor: " + this.motor.toString();
-    }
 }
